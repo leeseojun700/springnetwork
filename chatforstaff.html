@@ -59,6 +59,25 @@
     </script>
     
     </div>
+    <div class="col-sm-4">
+      <h3>이용자</h3>
+      <p id="userr"></p>
+      <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
+  	<script>
+  	// Initialize Firebase
+ 	 var config = {
+    		apiKey: "AIzaSyBLywfTIKZYfunqcYMblTr2JbWyOLrRnck",
+    		authDomain: "springnetworktestingdb.firebaseapp.com",
+    		databaseURL: "https://springnetworktestingdb.firebaseio.com",
+    		projectId: "springnetworktestingdb",
+    		storageBucket: "springnetworktestingdb.appspot.com",
+  	};
+  	firebase.initializeApp(config);
+  
+	var userr = document.getElementById('userr');
+ 	var dbRef = firebase.database().ref().child('usertext');
+ 	dbRef.on('value', snap => userr.innerText = snap.val());
+    </script>
   </div>
 </div>
 
