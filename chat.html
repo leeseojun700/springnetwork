@@ -55,7 +55,7 @@
   	firebase.initializeApp(config);
   
 	var userr = document.getElementById('userr');
- 	var dbRef = firebase.database().ref().child('asdf/usertext');
+ 	var dbRef = firebase.database().ref().child('usertext');
  	dbRef.on('value', snap => userr.innerText = snap.val());
     </script>
     <div class="form-group">
