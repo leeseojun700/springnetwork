@@ -20,7 +20,7 @@
   <div class="row">
     <div class="col-sm-4">
       <h3 align="center">관리자 모드</h3>
-      <p id="userr"></p>
+      <p id="asfd"></p>
       <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
   	<script>
   // Initialize Firebase
@@ -34,7 +34,7 @@
   	};
   	firebase.initializeApp(config);
   
-	var userr = document.getElementById('userr');
+	var asdf = document.getElementById('asdf');
  	var dbRef = firebase.database().ref().child('maintext');
  	dbRef.on('value', snap => userr.innerText = snap.val());
     </script>
