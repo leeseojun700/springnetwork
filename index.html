@@ -74,21 +74,7 @@ body {
     </ul>
   </div>
 </nav>
-<div class="row">
-  <div class="column">
-    <h2>Column</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
-  </div>
-  <div class="column">
-    <h2>Column</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
-  </div>
-  <div class="column">
-    <h2>Column</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
-  </div>
-</div>
-  <script>
+<script>
   // Initialize Firebase
   var config = {
     apiKey: "AIzaSyC84HgDQ9mTSk-rUFPJUzSjudNsmGABY1g",
@@ -96,9 +82,19 @@ body {
     databaseURL: "https://springnetwork-13579.firebaseio.com",
     projectId: "springnetwork-13579",
     storageBucket: "springnetwork-13579.appspot.com",
-    messagingSenderId: "603215990628"
   };
   firebase.initializeApp(config);
+  
+  
+ var database = firebase.database(); 
+ function writeUserData(userId, name, email, imageUrl) {
+  firebase.database().ref('users/' + userId).set({
+    username: name,
+    email: email,
+    profile_picture : imageUrl
+  });
+} 
+
 </script>
 </body>
 </html>
