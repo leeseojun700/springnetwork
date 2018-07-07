@@ -41,12 +41,12 @@
     <div class="form-group">
       	<input type="text" class="form-control" id="usertextt" onkeydown="JavaScript:Enter_Check();">
     </div>
-    <button type="button" class="btn btn-success" onclick= writeUserData(usertextt)>보내기</button>
+    <button type="button" class="btn btn-success" onclick= writeUserData(maintextt)>보내기</button>
     <script>
     function Enter_Check(){
     	if(event.keyCode == 13){
          writeUserData(usertextt)
-	 document.getElementById("usertextt").value = '';
+	 document.getElementById("maintextt").value = '';
     	}
 	}
 
