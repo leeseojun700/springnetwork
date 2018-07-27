@@ -203,7 +203,23 @@ body, html {
 
 
 
-
+<script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyC84HgDQ9mTSk-rUFPJUzSjudNsmGABY1g",
+    authDomain: "springnetwork-13579.firebaseapp.com",
+    databaseURL: "https://springnetwork-13579.firebaseio.com",
+    projectId: "springnetwork-13579",
+    storageBucket: "springnetwork-13579.appspot.com",
+  };
+  firebase.initializeApp(config);
+  
+ var bigOne = document.getElementById('bigOne');
+ var dbRef = firebase.database().ref().child('text');
+ dbRef.on('value', snap => bigOne.innerText = snap.val());
+</script>
+  
 <script>
 // Change style of navbar on scroll
 window.onscroll = function() {myFunction()};
