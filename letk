@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>LETK: 키보드 중급반</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <style>
+  .fakeimg {
+      height: 200px;
+      background: #aaa;
+  }
+  </style>
+  <script>
+    (function(d, w, c) {
+        w.ChatraID = 'KWKJRzGz2HgtasAAa';
+        var s = d.createElement('script');
+        w[c] = w[c] || function() {
+            (w[c].q = w[c].q || []).push(arguments);
+        };
+        s.async = true;
+        s.src = 'https://call.chatra.io/chatra.js';
+        if (d.head) d.head.appendChild(s);
+    })(document, window, 'Chatra');
+</script>
+</head>
+<body>
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <h1>LETK: 키보드 중급반</h1>
+  <p>아래의 버튼은 문의사항을 이야기하는 버튼입니다.</p> 
+  <p>문의사항에서 욕설, 비하를 하는 경우 법적 조치를 받을 수 있습니다.</p> 
+</div>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+  <a class="navbar-brand" href="https://leeseojun700.github.io/springnetwork/ltkb">Home</a>
+  <ul class="navbar-nav">
+  </ul>
+</nav>
+
+<div class="container" style="margin-top:30px">
+  <div class="row">
+    <div class="col-sm-2">
+      <h2>공지사항</h2>
+      <h5>사이트 이용안내:</h5>
+      <p>이 사이트는 어떤 사람이 취미로 운영하는 사이트입니다. </p>
+      <hr class="d-sm-none">
+    </div>
+    <div class="col-sm-10">
+      <h2>키보드 중급반을 시작하며..</h2>
+      <br>
+      <p>키보드 중급반의 경우, 여러가지 키보드 용어에 대하여 알고 넘어가시는게 좋습니다. 키보드랩, 퀘이사존 등의 포럼에서 그런 정보를 얻으실 수 있습니다. 그리고 <b>중급반에서 키보드는 기계식 키보드만을 이야기합니다.</b></p>
+      <br>
+      <br>
+      <h1>1. 스위치</h1>
+      <br>
+      <h2>제조사</h2>
+      <p>우선 자, 제조사를 봅시다. 스위치 제조사하면 체리가 딱 떠오르는 군요. 체리는 독일에서 만들고 국내에서 많은 인기를 끌고 있는 스위치로 유명하지만 비싼 편입니다. 다음은 카일입니다. 카일은 체리가 기계식 키보드 스위치 원리에 대한 특허가 끝나자 중국에서 스위치를 만들기 시작한 회사입니다. 카일 박스 축 등으로 많은 인기를 얻고 있습니다. 오테뮤는 가장 저가형 축으로 비교적 요즘에 새로 스위치를 만들기 시작했습니다. 리니어 부분에서는 안좋은 평가를 받지만 가격이 싸서 저가형 키보드에 탑재됩니다. 마지막으로 게이트론입니다. 게이트론은 잘 알려지지 않았습니다. 하지만 리니어 부문에서는 최고를 달리는 스위치입니다. 뚜껑을 치는 소리가 있어서 조금 호불호가 갈리는 브랜드이기도 합니다. 다른 조금 특이한 스위치 브랜드는 마스터반에서 설명하겠습니다.</p>
+      <br>
+      <br>
+      <h2>클릭, 리니어, 넌클릭</h2>
+      <p>보통 스위치를 분류할 때 클릭, 리니어, 넌클릭으로 분류합니다. 우선 클릭스위치는 초급반에서 배운 청축같이 찰칵찰칵 소리가 나며 중간에 걸리는 느낌이 있는 스위치입니다. 리니어는 무엇일까요? 리니어는 초급반에서 배운 적축과 흑축같이 부드럽게 걸림없이(처음 배우시는 분들은 스무스하게 들어간다고 이야기합니다.) 눌러 입력이 되는 스위치입니다. 마지막으로 넌클릭은 갈축과 같이 중간에 걸리는 느낌은 있는데 청축의 경쾌한 소리가 빠져서 처음 보시는 분들은 청축과 적축의 사이라고 생각하십니다. 어떤 분들은 청축에 모래가 끤 느낌이라고 합니다.</p>
+      <br>
+      <br>
+      <h1>2. 하우징과 보강판</h1>
+      <br>
+      <h2>하우징</h2>
+      <p>하우징은 쉽게 여러분께 키보드를 담은 케이스라고 이야기하고 싶습니다. 외국에서는 하우징을 보통 케이스라고 하죠. 이 하우징의 재질은 플라스틱, 나무, 알루미늄, <del>대리석</del>, <del>종이(장난인거 아시죠? ㅋㅋ)</del> 등이 있습니다. 보통 키보드들은 플라스틱 재질을 많이 사용하지만 플라스틱은 가볍고, 통울림이 많이 있을 수도 있습니다. 나무입니다. 나무는 단단한 키감을 만들어주고 디자인도.. 예쁘다고 이야기합니다. 하지만 나무의 경우는 사용한 키보드 수도 적고, 가격도 매우 비싼걸 단점으로 꼽을 수 있습니다. 알루미늄입니다. 알루미늄도 단단하고 통울림이 별로 없습니다. 알루미늄은 나무보다 조금 더 무거워서 더 단단한 키감을 보장합니다. 하지만 알루미늄도 매우 비싸게 판매가 됩니다.</p>
+      <br>
+      <br>
+      <h2>보강판</h2>
+      <p>보강판입니다. 보강판이 무엇이야 하면 여러분의 스위치를 보강해주는 판입니다. 스위치가 고정될 수 있도록 도와줍니다. 하지만 몇몇 키보드에는 보강판이 없습니다. 그런 키보드를 무보강판 키보드라고 하는데 위에서 배운 스위치를 만드는 회사인 체리가 키보드도 만듭니다. 그 체리사의 키보드에서 가끔씩 무보강판 키보드를 볼 수 있습니다. 다른 키보드에서도 볼 수 있지만요. 무보강판 키보드의 스위치는 조금 다릅니다. 5핀 스위치라고 합니다. 일반적인 스위치의 경우에는 3핀 스위치라고 합니다. 이유는 무보강판 키보드에 들어가는 스위치는 아래에 5개의 나온 부분이 있고, 일반적인 보강판이 달린 키보드에선 스위치에 3개의 나온 부분이 있습니다.</p>
+      <br>
+      <br>
+      <h1>3. 그럼 어떤 키보드를 구매해야하는가</h1>
+      <br>
+      <h2></h2>
+      <p></p>
+      <br>
+      <br>
+      
+    </div>
+  </div>
+</div>
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <p>혹시 오타나 추가하실 내용이 있다면 문의사항을 사용해주시기 바랍니다.</p>
+</div>
+
+</body>
+</html>
