@@ -1,107 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>SPRING.NET</title>
+  <title>서준</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3pro.css">
-<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
-  <script>
-function startTime() {
-    var today = new Date();
-    var h = today.getHours();
-    var m = today.getMinutes();
-    var s = today.getSeconds();
-    m = checkTime(m);
-    s = checkTime(s);
-    document.getElementById('txt').innerHTML =
-    h + "시" + " " + m + "분" + " " + s + "초";
-    var t = setTimeout(startTime, 500);
-}
-function checkTime(i) {
-    if (i < 10) {i = "0" + i};
-    return i;
-}
-</script>
-<style>
-* {
-    box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-}
-
-/* Create three equal columns that floats next to each other */
-.column {
-    float: left;
-    width: 33.33%;
-    padding: 15px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width:600px) {
-    .column {
-        width: 100%;
-    }
-}
-</style>
-  <script>
-    (function(d, w, c) {
-        w.ChatraID = 'KWKJRzGz2HgtasAAa';
-        var s = d.createElement('script');
-        w[c] = w[c] || function() {
-            (w[c].q = w[c].q || []).push(arguments);
-        };
-        s.async = true;
-        s.src = 'https://call.chatra.io/chatra.js';
-        if (d.head) d.head.appendChild(s);
-    })(document, window, 'Chatra');
-</script>
 </head>
-<body onload="startTime()">
-<div class="jumbotron jumbotron-fluid">
-  <div class="container" id = "a1">
-    <h1>Spring NET WORK</h1>      
-    <p id="txt"></p>
-  </div>
-</div>
-  <p>REV:</p>
-  <h1 id ="bigOne" align="center"></h1>
-<div class="container">
-  <div class="btn-group btn-group-justified">
-    <a href="#" class="btn btn-success">MENU</a>
-  </div>
-</div>
-<br>
-
-<script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
-<script>
-  // Initialize Firebase
-  var config = {
-    apiKey: "AIzaSyC84HgDQ9mTSk-rUFPJUzSjudNsmGABY1g",
-    authDomain: "springnetwork-13579.firebaseapp.com",
-    databaseURL: "https://springnetwork-13579.firebaseio.com",
-    projectId: "springnetwork-13579",
-    storageBucket: "springnetwork-13579.appspot.com",
-  };
-  firebase.initializeApp(config);
-  
- var bigOne = document.getElementById('bigOne');
- var dbRef = firebase.database().ref().child('text');
- dbRef.on('value', snap => bigOne.innerText = snap.val());
-
-</script>
+<body>
+<a href="http://leeseojun700.github.io/springnetwork/star2.exe" download>스타2 다운로드..</a>
+  <p>이거까지 안된다면.. 포기해야하나...ㅋㅋ...</p>
 </body>
 </html>
